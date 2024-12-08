@@ -22,7 +22,7 @@ data = dumps([
     
 fingerprint_blob = blob.encrypt(data)
 
-decrypted_fingerprint_blob = blob.decrypt(data)
+decrypted_fingerprint_blob = blob.decrypt(fingerprint_blob)
 ```
  
 # Credits
